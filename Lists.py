@@ -5,3 +5,6 @@ for x in range(0,len(lista)):
 
 print(lista[3][0])
 print(lista[4][0])
+
+lista[-1] = "h"
+print(lista)
