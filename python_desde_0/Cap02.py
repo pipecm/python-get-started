@@ -4,11 +4,11 @@ import Constants, math
 
 suma = 0
 indice = 0
-exit = False
-while (exit == False):
+
+while True:
     nota = input(Constants.INPUT_PROMPT.format(indice + 1))
-    if (nota == Constants.EXIT_CMD): 
-        exit = True
+    if (nota in Constants.EXIT_CMD): 
+        break
     else:
         try:    
             suma += float(nota)
