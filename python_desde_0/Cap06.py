@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 import Constants, math
 
 suma = 0
